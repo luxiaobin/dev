@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><message module="Yucoder" version="3.9.1.782"><header action="REQUEST" command="TASK_ASSIGN" /><body><task id="28">
+<input>
+<i_path>yusmb://guest:@192.168.10.71/store|XEDIT/EDI00655.ts</i_path>
+<i_file_fmt>ts</i_file_fmt>
+</input>
+<output>
+<o_path>yusmb://guest:@192.168.10.71/store|ouyun/EDI00655_320x240_28.mp4</o_path>
+<system_params>
+<file_format>mp4</file_format><drm_encryption_flag>disable</drm_encryption_flag><hls_segmenter>disable</hls_segmenter></system_params>
+<video_params><video_aspect>4:3</video_aspect><iframe_interval>32</iframe_interval><interlaced>disable</interlaced><level>30</level><max_v_bitrate>300000</max_v_bitrate><profile>baseline</profile><rc_method>cbr</rc_method><ref_count>3</ref_count><v_type>h264</v_type><scenecut_detect>enable</scenecut_detect><v_bitrate>300000</v_bitrate><v_pass>1</v_pass><output_size>320x240</output_size>
+<fps>auto</fps>
+</video_params>
+<audio_params><a_bitrate>128000</a_bitrate><channels>2</channels><a_type>aac_lc</a_type><sample_rate>44100</sample_rate></audio_params>
+<subtitle_params>
+</subtitle_params>
+</output>
+</task>
+</body></message>
